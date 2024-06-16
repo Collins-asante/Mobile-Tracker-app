@@ -5,6 +5,10 @@ class OnboardingScreen2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("1st_OnBoarding_Screen"),
+      ),
+    );
   }
 }
